@@ -1,0 +1,449 @@
+@charset "utf-8";
+
+body{
+  background-color: #fbfbfb;
+}
+a{
+  color:#000000;
+  text-decoration:none;
+}
+.language{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+}
+
+.top{
+  margin: 0 auto;
+   text-align: center;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+.top img{
+  width: 50%;
+
+}
+li{
+  padding-right: 5%;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+  font-style: normal;
+  list-style: none;
+}
+
+.korea{
+  padding-right: 5%;
+  font-family: source-han-sans-korean, sans-serif;
+  font-weight: 200;
+  font-size: 100%;
+  font-style: normal;
+  padding-top: 2px;
+}
+
+
+.Introduce{
+  width: 100%;
+}
+
+.title{
+font-family: fot-tsukuardgothic-std, sans-serif;
+font-weight: 700;
+font-size: 200%;
+font-style: normal;
+padding-left: 5%;
+}
+
+.ikon img{
+  width: 20%;
+  float: left;
+  padding-left: 7%;
+  padding-right: 2%;
+}
+.name{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 400;
+  font-size: 200%;
+  font-style: normal;
+
+}
+.bun{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+  font-style: normal;
+
+}
+.motto{
+  width: 10%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+.motto img{
+  width: 100%;
+}
+
+.skill{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tittle_2{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+font-weight: 700;
+font-size: 300%;
+font-style: normal;
+text-align: center;
+}
+.design,.movie,.management{
+  width: 33%;
+  text-align: center;
+  margin-bottom: 18%;
+}
+
+.design img,.movie img,.management img{
+  width: 50%;
+  padding-top: 30%;
+}
+
+.title_3{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+font-weight: 700;
+font-size: 300%;
+font-style: normal;
+  text-align: center;
+}
+
+.projects{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.oni,.toe,.kuma{
+  width: 30%;
+  padding-bottom: 15%;
+}
+
+.oni img,.kuma img,.toe img{
+  width: 100%;
+}
+
+
+.more{
+  width: 10%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.more img{
+  width: 100%;
+}
+
+.title_4{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+font-weight: 700;
+font-size: 300%;
+font-style: normal;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.work{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.lit,.obra,.cotton{
+  width: 33%;
+
+}
+
+.lit img,.obra img,.cotton img{
+  width: 50%;
+
+}
+
+
+.tittle_5{
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-size: 300%;
+  font-style: normal;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.vision{
+  width: 100%;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-size: 150%;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20%;
+}
+.bun_h{
+  width: 100%;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  font-style: normal;
+}
+
+.me{
+  width: 20%;
+}
+
+.me img{
+  width: 100%;
+}
+
+.sns{
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.twitter img,.insta img,.facebook img{
+  width: 70%;
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and (max-width:479px){
+  .language{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+
+  .top{
+    margin: 0 auto;
+     justify-content: center;
+     margin-top: 30%;
+     margin-bottom:30%;
+  }
+
+  .top img{
+    width: 80%;
+  }
+
+  li{
+    padding-right: 3%;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    font-style: normal;
+    list-style: none;
+  }
+
+  .korea{
+    padding-right: 3%;
+    font-family: source-han-sans-korean, sans-serif;
+    font-weight: 500;
+    font-size: 100%;
+    font-style: normal;
+  }
+
+  .Introduce{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .title{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 600;
+  font-size: 190%;
+  font-style: normal;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+.ikon{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+  .ikon img{
+    width: 60%;
+    text-align: center;
+  }
+  .name{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    font-style: normal;
+    justify-content: center;
+    clear: both;
+    text-align: center;
+
+  }
+  .bun{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    width:80%;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .motto{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
+
+  .skill{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .tittle_2{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-size: 360%;
+  font-style: normal;
+  margin: 0 auto;
+  }
+  .design,.movie,.management{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 18%;
+    margin: 0 auto;
+  }
+
+  .design img,.movie img,.management img{
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  .title_3{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-size:360%;
+  font-style: normal;
+  }
+
+  .projects{
+    width: 100%;
+    /*display: flex;で横並びにしていた設定を縦にするために「display: block;」と書いて箱に戻して縦に並ぶように設定する。workも同じ設定*/
+    display: block;
+  }
+
+  .oni,.toe,.kuma{
+    /*縦にしたときに箱が小さいと左に寄るので、幅を100%にするか、margin:0 auto;でセンターリングすること*/
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .oni img,.kuma img,.toe img{
+    width: 100%;
+    padding-top: 10%;
+  }
+
+
+  .more{
+    width: 40%;
+    text-align: center;
+    padding-top: 8%;
+  }
+
+  .more img{
+    width: 100%;
+  }
+
+  .title_4{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-size: 300%;
+  font-style: normal;
+  }
+
+  .work{
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 10%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .lit,.obra,.cotton{
+    width: 80%;
+    clear: both;
+
+  }
+  .lit img,.obra img,.cotton img{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+  .tittle_5{
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
+    font-size: 360%;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .vision{
+    width: 100%;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 700;
+    font-size: 300%;
+    font-style: normal;
+    text-align: center;
+
+  }
+  .bun_h{
+    width: 80%;
+    font-family: fot-tsukuardgothic-std, sans-serif;
+    font-weight: 360;
+    font-size: 40%;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .me{
+    display: none;
+  }
+
+  .sns{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10%;
+  }
+
+  .twitter img,.insta img,.facebook img{
+    width: 60%;
+  }
+
+
+
+}
